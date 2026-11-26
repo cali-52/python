@@ -1,9 +1,8 @@
-n=int(input("introdu nr: "))
+n = int(input("introdu nr: "))
 s = 0
 while n != 0:
     c = n % 10
     if c % 2 == 0:
         s = s + c
     n = n // 10
-print("Suma cifrelor pare este: ", s)
-      
+print("Suma cifrelor pare este:", s)
