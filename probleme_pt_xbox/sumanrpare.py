@@ -1,4 +1,4 @@
-n = int(input("introdu nr:"))
+n=int(input("introdu nr:"))
 s = 0
 if n < 0:
     n = -n
